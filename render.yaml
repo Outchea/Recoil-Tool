@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: Recoil-Tool
+    env: python
+    buildCommand: "./build.sh"
+    startCommand: "venv/bin/python bot.py"
